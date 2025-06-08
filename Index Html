@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ken's Advice Corner</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+      background: #fefefe;
+    }
+    header, footer {
+      text-align: center;
+    }
+    section {
+      margin: 40px 0;
+    }
+    .ebook-section {
+      text-align: center;
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .ebook-section img {
+      max-width: 250px;
+      border-radius: 10px;
+    }
+    .btn-download {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .qr {
+      margin-top: 20px;
+    }
+    .qr img {
+      max-width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ken’s Advice Corner 🧠</h1>
+    <p>Real talk. Real tips. No sugarcoating.</p>
+  </header>
+
+  <section class="ebook-section">
+    <h2>📘 New eBook: How to Find the Right Person</h2>
+    <img src="https://i.imgur.com/2lEqPyE.png" alt="eBook Cover" />
+    <br>
+    <a href="https://payhip.com/b/9rqU5" class="btn-download" target="_blank">📥 Download Now</a>
+    <div class="qr">
+      <p>or scan below:</p>
+      <img src="https://i.imgur.com/YDXsKjU.png" alt="QR Code to download eBook">
+    </div>
+  </section>
+
+  <section>
+    <h2>Latest Advice</h2>
+    <article>
+      <h3>5 Signs They’re Not Serious 😒</h3>
+      <p>If they never plan with you, reply dry, or only text late... that’s not love, bestie. It’s convenience. Choose better.</p>
+      <p><a href="https://example.com/mindsetbook" target="_blank">📖 Book That Helped Me</a></p>
+    </article>
+
+    <article>
+      <h3>Build Your Worth First 💪</h3>
+      <p>You don’t attract better by chasing. You attract better by growing. Build in silence and let them wonder.</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Ask Ken Anything</h2>
+    <p>Drop your question. I might feature it (anonymously) on this site.</p>
+    <form action="https://forms.gle/YOUR-GOOGLE-FORM-LINK" target="_blank">
+      <button type="submit">💬 Ask Now</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Support & Extras</h2>
+    <p>Enjoy the tips? Support or download my guide below 👇</p>
+    <ul>
+      <li><a href="https://ko-fi.com/yourlink" target="_blank">☕ Buy Me a Coffee</a></li>
+      <li><a href="https://gumroad.com/yourlink" target="_blank">📥 Download My Self-Worth Mini Guide</a></li>
+      <li><a href="https://jumia.com/your-affiliate" target="_blank">🛒 Product I Recommend</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Made by Ken Carti ✨ | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
